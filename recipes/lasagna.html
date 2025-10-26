@@ -5,22 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        #fanhui{
+            width: 40px;
+            height: 40px;
+            border-radius: 50px 50px 50px 50px;
+            background-image: url("../tubiao/fanhui-baise.png");
+            background-size: cover;
+            text-align: center;
+            line-height: 40px;
+        }
         #box_zong{
             margin: 0 auto;
             width: 80%;
+            background-image: url("../img/beijing2.jpg");
+            background-size: cover;
+            background-position: center;
+            padding: 10px;
+            
+        }
+        #box_nei{
+            border-radius: 10px 10px 10px 10px;
+            margin:  auto;
+            width: 80%;
+            height: 70%;
+            background-color: rgb(148, 141, 133,0.5);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+
+        }
+        #box_intro{
+            width: 100%;
             height: 200px;
-            background-color: black;
+            background-color: rgb(236, 236, 236);
+            margin: 0 auto;
+            border-radius: 0px 0px 10px 10px;
+        }
+        #caipu{
+            width: 80%;
+            height: 300px;
+            background-color: rgb(236, 236, 236);
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        .photo{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 30%;
+            display: block;
+            margin: 0 auto;
+            padding: 10px;
         }
         a{
             font-size: 25px;
             color: aliceblue;
             text-decoration: none; 
         }
+        h1{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 10px;
+        }
+        .jieshao{
+            padding-left: 10px;
+            padding-right: 10px;
+            color: rgb(66, 66, 66);
+        }
     </style>
 </head>
 <body>
     <div id="box_zong">
-        <a href="../index.html"> < </a>
+        <div id="fanhui">
+            <a href="../index.html" > &nbsp; </a>
+        </div>
+        
+        <div id="box_nei">
+            <img src="../img/4.jpg" alt="" class="photo">
+            <div id="box_intro">
+                <h1 >&nbsp;JiaoZi</h1>
+                <p class="jieshao">饺子，又称“饺儿”或“水饺”，是中华传统美食之一，已有
+                    千年历史。它以面粉制皮，包裹猪肉、牛肉、虾仁或素菜等馅料，形状似元宝
+                    ，象征吉祥如意。饺子可煮、蒸或煎，口感丰富，外皮柔韧，内馅鲜美多汁，适
+                    合家庭聚餐与节日宴席。北方多以煮水饺为主，南方则常蒸或煎，配以醋、辣椒
+                    油或蒜泥调味。饺子不仅味美，还承载着团圆与祝福，是冬至、春节等传统节日不
+                    可或缺的美食，象征着合家欢乐与幸福美满。</p>
+            </div>
+        </div>
+        <div style="height: 30px;" id="caipu">
+            
+        </div>
+        
     </div>
     </body>
 </html>
